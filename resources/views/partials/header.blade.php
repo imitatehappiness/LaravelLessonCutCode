@@ -7,7 +7,7 @@
 
     <div class="sm:mb-0 self-center">
         @auth("web")
-            <a href="{{  route("logout") }}" class="text-md  no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Выйты</a>
+            <a href="{{  route("logout") }}" class="text-md  no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Выйти</a>
         @endauth
 
         @guest("web")
