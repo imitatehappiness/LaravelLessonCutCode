@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\AdminUser::factory(1)->create([
             "name" => "Admin",
-            "email" => "laravel1@laravel.com",
+            "email" => "laravel@laravel.com",
             "password" => bcrypt("12345"),
         ]);
 
